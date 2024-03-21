@@ -13,5 +13,8 @@
     "nuxt": "latest",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "vuetify-nuxt-module": "latest"
   }
 }
