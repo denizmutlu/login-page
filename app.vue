@@ -4,5 +4,8 @@
     <v-main class="d-flex align-center justify-center">
       Main Content
     </v-main>
+    <v-footer app>
+      {{ new Date().getFullYear() }}
+    </v-footer>
   </v-app>
 </template>
