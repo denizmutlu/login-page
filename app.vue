@@ -1,6 +1,6 @@
 <template>
   <v-app theme="dark">
-    <v-app-bar title="Application bar"></v-app-bar>
+    <v-app-bar title="Application bar" class="text-center" />
     <v-main class="d-flex align-center justify-center">
       Main Content
     </v-main>
