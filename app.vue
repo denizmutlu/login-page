@@ -1,5 +1,8 @@
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <v-app theme="dark">
+    <v-app-bar title="Application bar"></v-app-bar>
+    <v-main class="d-flex align-center justify-center">
+      Main Content
+    </v-main>
+  </v-app>
 </template>
