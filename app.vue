@@ -1,14 +1,22 @@
 <template>
   <v-app theme="dark">
-    <v-app-bar :title="title" class="text-center" />
+    <v-app-bar :title="en.text.title" class="text-center" />
     <v-main class="d-flex justify-center align-center">
       <v-row class="ma-0">
-        <v-col cols"auto" class="text-h4">
-          {{ signin }}
-        </v-col>
+        <v-col cols"auto" class="text-h4">{{ en.text.signin }}</v-col>
         <v-col cols"12" class="pa-0" />
-        <v-col>
-          <v-text-field rounded variant="solo-inverted"  />
+        <v-col cols="8">
+          <v-row>
+            <v-col cols="12">
+              <v-text-field rounded variant="solo-inverted"  />
+            <v-col>
+            <v-col>
+              <v-btn v-text="en.btn.usepass" />
+            <v-col>
+            <v-col>
+              <v-btn v-text="en.btn.sendlink" />
+            <v-col>
+          </v-row>
         </v-col>
       </v-row>
     </v-main>
@@ -20,8 +28,17 @@
 <script setup>
   const language = {
     en: {
-      title: 'My Title',
-      signin: 'Sign in'
+      btn: {
+        sendlink: 'Send me a link',
+        usepass: 'Use password'
+      },
+      text: {
+        title: 'My Title',
+        signin: 'Sign in'
+      },
+      field: {
+        email: ''
+      }
     }
   }
 </script>
