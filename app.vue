@@ -1,6 +1,6 @@
 <template>
   <v-app theme="dark">
-    <v-app-bar :title="en.text.title" class="text-center" />
+    <v-app-bar :title="en.txt.title" class="text-center" />
     <v-main class="d-flex justify-center align-center">
       <v-row class="ma-0">
         <v-col cols="auto" class="text-h4">{{ en.txt.signin }}</v-col>
