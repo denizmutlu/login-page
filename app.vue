@@ -3,7 +3,7 @@
     <v-app-bar :title="en.text.title" class="text-center" />
     <v-main class="d-flex justify-center align-center">
       <v-row class="ma-0">
-        <v-col cols="auto" class="text-h4">{{ en.text.signin }}</v-col>
+        <v-col cols="auto" class="text-h4">{{ en.txt.signin }}</v-col>
         <v-col cols="12" class="pa-0" />
         <v-col cols="8">
           <v-row>
@@ -32,11 +32,11 @@
         sendlink: 'Send me a link',
         usepass: 'Use password'
       },
-      text: {
+      txt: {
         title: 'My Title',
         signin: 'Sign in'
       },
-      field: {
+      fld: {
         email: ''
       }
     }
