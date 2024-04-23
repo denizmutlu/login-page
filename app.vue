@@ -9,13 +9,13 @@
           <v-row>
             <v-col cols="12">
               <v-text-field rounded variant="solo-inverted"  />
-            <v-col>
+            </v-col>
             <v-col>
               <v-btn v-text="en.btn.usepass" />
-            <v-col>
+            </v-col>
             <v-col>
               <v-btn v-text="en.btn.sendlink" />
-            <v-col>
+            </v-col>
           </v-row>
         </v-col>
       </v-row>
